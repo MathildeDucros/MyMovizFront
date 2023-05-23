@@ -95,8 +95,8 @@ function Home() {
       />
     );
   });
-  const BACKEND_URL = "https://my-movies-back.vercel.app/";
-  // const BACKEND_URL = "http://localhost:3000";
+  // const BACKEND_URL = "https://my-movies-back.vercel.app/";
+  const BACKEND_URL = "http://localhost:3000";
 
   useEffect(() => {
     fetch(`${BACKEND_URL}/movies`)
